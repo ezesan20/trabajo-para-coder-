@@ -21,8 +21,8 @@
 
 
 
-
 .header_nav{
+   
     width: 100%;
     height: auto;
     background-color: black;
@@ -30,8 +30,11 @@
     border-color: rgb(65, 49, 49);
     border-radius: 5px;
     text-align: left;
+    animation: animacion;
     
 }
+
+
 
 .navegacion{
     display: flex;
@@ -55,14 +58,18 @@
 }
 .navegacion ul li a{
     text-decoration: none;
-    /*Ponele los detalles y colores que quieras*/
+    
     color: rgb(255, 255, 255);
 }
+
+
 .navegacion ul li a:hover{
     color: rgb(235, 212, 212);
     text-decoration: underline;
 
 }
+
+
 
 section{
     background-color: rgb(12, 11, 11);
@@ -201,6 +208,10 @@ body p{
 
 }
 
+.row{
+    background-color: grey;
+
+}
 .registro img{
     width:1000px;
     margin: 90px 0px 0px 0px;
